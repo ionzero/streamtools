@@ -4,18 +4,17 @@
   "description": "Useful tools for working with streams",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --recursive test"
+    "test": "cd test && mocha --recursive ."
   },
   "repository": {
     "type": "git",
     "url": "git@github.com:ionzero/streamtools.git"
   },
   "keywords": [
-    "stream"
+    "stream", "streams", "recording", "tee"
   ],
   "dependencies": {
-    "iz-objects": ">=0.1.0",
-    "uuid": "^3.3.2"
+    "iz-objects": ">=1.1.0"
   },
   "devDependencies": {
     "mocha": ">=1.1.0"
