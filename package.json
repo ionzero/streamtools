@@ -1,0 +1,28 @@
+{
+  "name": "streamtools",
+  "version": "1.0.1",
+  "description": "Useful tools for working with streams",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --recursive test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ionzero/streamtools.git"
+  },
+  "keywords": [
+    "stream"
+  ],
+  "dependencies": {
+    "iz-objects": ">=0.1.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "mocha": ">=1.1.0"
+  },
+  "author": "jayk@ionzero.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ionzero/streamtools/issues"
+  }
+}
